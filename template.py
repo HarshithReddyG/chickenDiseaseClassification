@@ -20,7 +20,7 @@ list_of_files = [
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
-    "dvc.yaml"
+    "dvc.yaml",
     "params.yaml",
     "requirements.txt",
     "setup.py",
@@ -40,4 +40,3 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
     else:
         logging.info(f"{filename} is already exists")
-        
